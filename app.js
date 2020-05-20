@@ -8,17 +8,8 @@ const mongodb = require('mongodb')
 var MongoClient = require('mongodb').MongoClient;
 
 
-
-
-
 MongoClient.connect(process.env.DB_CONNECT ,{useUnifiedTopology: true,
 useNewUrlParser: true }, () => console.log(process.env.DB_CONNECT));
-
-
-
-
-
-
 
 
 // error handler
